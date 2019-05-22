@@ -25,3 +25,21 @@ Genetic Algorithms test repository
    ```bash
    python infinite_monkey.py
    ```
+
+### Sonic NEAT
+
+1. Install dependencies:
+
+    ```
+    pip install neat-python
+    pip install numpy
+    pip install gym-retro
+    pip install opencv-python
+    ```
+1. Get a copy of the ROM
+1. Place the ROM file inside the `retro` installation folder, under `data/stable/SonicTheHedgehog2-Genesis`
+1. Run:
+
+    ```bash
+    python sonic_hedgehog_2.py
+    ```
